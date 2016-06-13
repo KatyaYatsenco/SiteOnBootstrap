@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width", initial-scale=1>
+	<title>ALOHA</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+
+ <!-- Navbar -->
+
+<div class="container-fluid">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">   
+            <div class="navbar-header">
+                
+                <a class="navbar-brand" href="index.html">LOGO</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav pull-right">
+                    <li class="dropdown">
+                          <a href="#" class="dropdown-toggle text-capitalize" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">about <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="index.html#about">about us</a></li>
+                            <li role="separator" class="divider"></li>
+                            
+                            <li><a href="work_with_us.html#our_team">our team</a></li>
+                            
+                          </ul>
+                        </li>
+                    <li>
+                        <a href="faq.html" class="text-uppercase">faq</a>
+                    </li>
+                    <li>
+                         <a href="work_with_us.html" class="text-capitalize">work with us</a>
+                    </li>
+                    <li class="text-capitalize"><a href="sign_in.html">sign in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+</div>
+
+<!-- Form work with us -->
+
+<div class="container-fluid">
+    <section class="container_work_with_us">
+        
+        <h1 class="page-header text-center text-uppercase">work with us</h1>
+        
+        <form>
+            <fieldset>
+                <div class="form-group">
+                   <label for="inputName">What is your name?</label>
+                   <input id="inputName" placeholder="name" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="inputEmail">What is your email?</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="email">
+                </div>
+
+                <div class="form-group">
+                   <label for="inputYourself">Little information about yourself.</label>
+                   <textarea placeholder="info about yourself..." id="inputYourself" class="form-control"></textarea>
+                </div>
+
+
+                <button type="submit" class="btn btn-default">Send</button>
+            </fieldset>
+        </form>
+        
+    
+   <!--Our team -->
+
+    
+        <h2 class="text-capitalize text-center page-header" id="our_team">our team</h2>
+            <div class="col-xs-12">
+                <div class="col-xs-4">
+                    <a href="#doe" data-toggle="modal"><img src="img/team1.png" class="img-circle person"></a>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#dotter" data-toggle="modal"><img src="img/team2.png" class="img-circle person"></a>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#sampson" data-toggle="modal"><img src="img/team3.png" class="img-circle person"></a>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#doe" data-toggle="modal"><img src="img/team1.png" class="img-circle person"></a>
+                </div>
+                <div class="col-xs-4">
+                   <a href="#dotter" data-toggle="modal"><img src="img/team2.png" class="img-circle person"></a>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#sampson" data-toggle="modal"><img src="img/team3.png" class="img-circle person"></a>
+                </div>
+            </div>
+    </section> 
+
+    
+    <!--Modal windows -->
+
+   
+            <div id="doe" class="modal fade" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hiden="true">&times;</span></button>
+                            <h2><b>John Doe</b></h2>
+                            <h3><i>Founder & CEO</i></h3>
+                    
+                        
+                            <p><img src="img/team1.png" alt="John Doe" class="img-responsive pull-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                            unt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat.
+                            </p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+
+
+            <div id="dotter" class="modal fade" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h2><b>Bart Dotter</b></h2>
+                            <h3><i>PHP Developer</i></h3>
+                            <p><img src="img/team2.png" alt="Bart Dotter" class="img-responsive pull-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            L sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sampson" class="modal fade" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h2><b>Sem Sampson</b></h2>
+                            <h3><i>Desinger</i></h3>
+                            <p><img src="img/team3.png" alt="Sem Sampson" class="img-responsive pull-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Joccaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+  </div>
+
+<!-- Footer -->
+
+<footer class="row footer list-inline">
+        <div class="container container_footer">
+            <ul class="navbar list-inline" role="navigation">
+                <li class="footer_nav active text-capitalize"><a href="#about">about</a></li>
+                <li class="footer_nav"><a href="faq.html" class="text-uppercase">faq</a></li>
+                <li class="footer_nav"><a href="work_with_us.html" class="text-capitalize">work with us</a></li>
+            </ul>
+
+            <div class="social_container pull-right">
+                <a class="social" href="#"><img src="img/social_mail.png"></a>
+                <a class="social"href="#"><img src="img/social_facebook.png"></a>
+                <a class="social"href="#"><img src="img/social_twitter.png"></a>
+            </div>
+
+            <h2 class="footer_line page-header"></h2>
+            <p class="text-right privacy_policy"><a href="#">Privacy Policy</a>    |    <a href="#">Terms and Conditions</a>    |    © Company.LLC 2014</p>
+            <p id="demo"></p>
+            </div>
+    <script>
+        d = new Date();
+        document.getElementById("demo").innerHTML = d.toString();
+    </script>
+</footer>
+
+
+<!-- Java script -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
